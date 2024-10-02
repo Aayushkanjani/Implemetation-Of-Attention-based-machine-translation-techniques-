@@ -61,7 +61,7 @@ from attention import Attention
 
 
 def main():
-    # Dummy data. There is nothing to learn in this example.
+    
     num_samples, time_steps, input_dim, output_dim = 100, 10, 1, 1
     data_x = np.random.uniform(size=(num_samples, time_steps, input_dim))
     data_y = np.random.uniform(size=(num_samples, output_dim))
